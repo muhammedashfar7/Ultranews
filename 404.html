@@ -1,25 +1,65 @@
 ---
-permalink: /404.html
 layout: default
+title: 404
 ---
-
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+        <main class="position-relative">
+            <!--Search Form-->
+            <div class="main-search-form transition-02s">
+                <div class="container">
+                    <div class="pt-50 pb-50 main-search-form-cover">
+                        <div class="row mb-20">
+                            <div class="col-12">
+                                <form action="#" method="get" class="search-form position-relative">
+                                    <div class="search-form-icon"><i class="ti-search"></i></div>
+                                    <label>
+                                        <input type="text" class="search_field" placeholder="Enter keywords for search..." value="" name="s">
+                                    </label>
+                                    <div class="search-switch">
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a href="#" class="active">Articles</a></li>
+                                            <li class="list-inline-item"><a href="#">Authors</a></li>
+                                        </ul>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 font-small suggested-area">
+                                <p class="d-inline font-small suggested"><strong>Suggested:</strong></p>
+                                <ul class="list-inline d-inline-block">
+                                    <li class="list-inline-item"><a href="#">Covid-19</a></li>
+                                    <li class="list-inline-item"><a href="#">Health</a></li>
+                                    <li class="list-inline-item"><a href="#">WFH</a></li>
+                                    <li class="list-inline-item"><a href="#">UltraNet</a></li>
+                                    <li class="list-inline-item"><a href="#">Hospital</a></li>
+                                    <li class="list-inline-item"><a href="#">Policies</a></li>
+                                    <li class="list-inline-item"><a href="#">Energy</a></li>
+                                    <li class="list-inline-item"><a href="#">Business</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--main content-->
+            <div class="main_content sidebar_right mt-100 mb-100">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 d-lg-block d-none"><img src="assets/imgs/fogg-page-not-found.png" alt=""></div>
+                        <div class="col-lg-6 col-md-12">
+                            <h1 class="mb-30">404</h1>
+                            <form action="#" method="get" class="search-form d-lg-flex open-search mb-30">
+                                <i class="icon-search"></i>                               
+                                <input class="form-control" name="name" id="name" type="text" placeholder="Search...">
+                            </form>
+                            <p class="">The link you clicked may be broken or the page may have been removed.<br>
+                                visit the <a href="index.html">Homepage</a> or <a href="contact.html">Contact us</a> about the problem
+                            </p>
+                            <div class="form-group">
+                                <button type="submit" class="button button-contactForm mt-30">Home page</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>

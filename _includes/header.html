@@ -1,50 +1,52 @@
 <!-- Header -->
-<header class="main-header header-style-1">
-    <div class="top-bar pt-10 pb-10 background-white d-none d-md-block">
+<header class="main-header header-style-2">
+    <div class="top-bar background-white d-none d-md-block">
         <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <div class="language d-inline-block font-small">
-                        <div id="langMenuDropdow" class="dropdown-menu dropdown-menu-left" aria-labelledby="langMenu">
-                            <a class="dropdown-item" href="#">Français</a>
-                            <a class="dropdown-item" href="#">English</a>
-                            <a class="dropdown-item" href="#">Deutsch</a>
-                            <a class="dropdown-item" href="#">РУССКИЙ</a>
+            <div class="topbar-inner pt-10 pb-10">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="language d-inline-block font-small">
+                            <div id="langMenuDropdow" class="dropdown-menu dropdown-menu-left" aria-labelledby="langMenu">
+                                <a class="dropdown-item" href="#">Français</a>
+                                <a class="dropdown-item" href="#">English</a>
+                                <a class="dropdown-item" href="#">Deutsch</a>
+                                <a class="dropdown-item" href="#">РУССКИЙ</a>
+                            </div>
+                            <a class="dropdown-toggle" href="#" role="button" id="langMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="ti-world mr-5"></i>
+                                <span>EN</span>
+                            </a>
                         </div>
-                        <a class="dropdown-toggle" href="#" role="button" id="langMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="ti-world mr-5"></i>
-                            <span>EN</span>
-                        </a>
+                        <div id="datetime" class="d-inline-block">
+                            <ul>
+                                <li><span class="font-small"><i class="wi wi-day-cloudy mr-5"></i>34ºc, Sunny. <a class="active" href="#">London</a></span></li>
+                                <li><span class="font-small"><i class="ti-calendar mr-5"></i>Monday, April 6, 2020</span></li>
+                                <li><a class="active" href="#"><span class="font-small"><i class="ti-book mr-5"></i>Read Today’s Paper</span></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                    <div id="datetime" class="d-inline-block">
-                        <ul>
-                            <li><span class="font-small"><i class="wi wi-day-cloudy mr-5"></i>34ºc, Sunny. <a class="active" href="#">London</a></span></li>
-                            <li><span class="font-small"><i class="ti-calendar mr-5"></i>Monday, April 6, 2020</span></li>
-                            <li><a class="active" href="#"><span class="font-small"><i class="ti-book mr-5"></i>Read Today’s Paper</span></a>
-                            </li>
+                    <div class="col-6 text-right">
+                        <ul class="header-social-network d-inline-block list-inline">
+                            <li class="list-inline-item"><a class="social-icon facebook-icon text-xs-center" target="_blank" href="#"><i class="ti-facebook"></i></a></li>
+                            <li class="list-inline-item"><a class="social-icon twitter-icon text-xs-center" target="_blank" href="#"><i class="ti-twitter-alt"></i></a></li>
+                            <li class="list-inline-item"><a class="social-icon pinterest-icon text-xs-center" target="_blank" href="#"><i class="ti-pinterest"></i></a></li>
+                            <li class="list-inline-item"><a class="social-icon instagram-icon text-xs-center" target="_blank" href="#"><i class="ti-instagram"></i></a></li>
                         </ul>
-                    </div>
-                </div>
-                <div class="col-6 text-right">
-                    <ul class="header-social-network d-inline-block list-inline">
-                        <li class="list-inline-item"><a class="social-icon facebook-icon text-xs-center" target="_blank" href="#"><i class="ti-facebook"></i></a></li>
-                        <li class="list-inline-item"><a class="social-icon twitter-icon text-xs-center" target="_blank" href="#"><i class="ti-twitter-alt"></i></a></li>
-                        <li class="list-inline-item"><a class="social-icon pinterest-icon text-xs-center" target="_blank" href="#"><i class="ti-pinterest"></i></a></li>
-                        <li class="list-inline-item"><a class="social-icon instagram-icon text-xs-center" target="_blank" href="#"><i class="ti-instagram"></i></a></li>
-                    </ul>
-                    <div class="vline-space d-inline-block"></div>
-                    <div class="user-account d-inline-block font-small">
-                        <a class="dropdown-toggle" href="#" role="button" id="userMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="ti-user"></i>
-                            <span>Account</span>
-                        </a>
-                        <div id="userMenuDropdow" class="dropdown-menu dropdown-menu-right" aria-labelledby="userMenu">
-                            <a class="dropdown-item" href="#"><i class="ti-pencil-alt"></i>Edit Profile</a>
-                            <a class="dropdown-item" href="#"><i class="ti-settings"></i>Account Settings</a>
-                            <a class="dropdown-item" href="#"><i class="ti-stats-up"></i>Your Dashboard</a>
-                            <a class="dropdown-item" href="#"><i class="ti-heart"></i>Your Favorites</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="login.html"><i class="ti-share"></i>Logout</a>
+                        <div class="vline-space d-inline-block"></div>
+                        <div class="user-account d-inline-block font-small">
+                            <a class="dropdown-toggle" href="#" role="button" id="userMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="ti-user"></i>
+                                <span>Account</span>
+                            </a>
+                            <div id="userMenuDropdow" class="dropdown-menu dropdown-menu-right" aria-labelledby="userMenu">
+                                <a class="dropdown-item" href="#"><i class="ti-pencil-alt"></i>Edit Profile</a>
+                                <a class="dropdown-item" href="#"><i class="ti-settings"></i>Account Settings</a>
+                                <a class="dropdown-item" href="#"><i class="ti-stats-up"></i>Your Dashboard</a>
+                                <a class="dropdown-item" href="#"><i class="ti-heart"></i>Your Favorites</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="login.html"><i class="ti-share"></i>Logout</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -52,29 +54,19 @@
         </div>
     </div>
     <!--End top bar-->
-    <div class="header-logo background-white text-center pt-40 pb-40 d-none d-lg-block">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <a href="index.html">
-                        <img class="logo-img d-inline" src="assets/imgs/logo.png" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--End logo-->
+
     <div class="header-bottom header-sticky background-white text-center">
         <div class="mobile_menu d-lg-none d-block"></div>
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="off-canvas-toggle-cover">
-                        <div class="off-canvas-toggle hidden d-inline-block ml-15" id="off-canvas-toggle">
-                            <span></span>
-                            <p class="font-small d-none d-md-inline">All Sections</p>
-                        </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img class="logo-img d-inline" src="assets/imgs/logo-2.png" alt="">
+                        </a>
                     </div>
+                </div>
+                <div class="col-lg-10 col-md-12">                            
                     <div class="logo-tablet d-md-inline d-lg-none d-none">
                         <a href="index.html">
                             <img class="logo-img d-inline" src="assets/imgs/logo-tablet.png" alt="">
@@ -85,8 +77,9 @@
                             <img class="logo-img d-inline" src="assets/imgs/logo-mobile.png" alt="">
                         </a>
                     </div>
+
                     <!-- Main-menu -->
-                    <div class="main-nav text-center d-none d-lg-block">
+                    <div class="main-nav text-left d-none d-lg-block">
                         <nav>
                             <ul id="navigation" class="main-menu">
                                 <li class="menu-item-has-children">
@@ -570,12 +563,21 @@
                             </ul>
                         </nav>
                     </div>
+                    
+                    <!-- Off canvas -->
+                    <div class="off-canvas-toggle-cover">
+                        <div class="off-canvas-toggle hidden d-inline-block ml-15" id="off-canvas-toggle">
+                            <span></span>
+                            <p class="font-small d-none d-md-inline">All Sections</p>
+                        </div>
+                    </div>
                     <!-- Search -->
                     <div class="search-button">
                         <button class="search-icon"><i class="ti-search"></i></button>
                         <span class="search-close float-right font-small"><i class="ti-close mr-5"></i>CLOSE</span>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
